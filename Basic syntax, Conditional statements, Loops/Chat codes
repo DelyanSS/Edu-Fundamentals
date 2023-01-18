@@ -1,0 +1,11 @@
+message = int(input())
+for i in range(message):
+    secret = int(input())
+    if secret == 88:
+        print("Hello")
+    elif secret == 86:
+        print("How are you?")
+    elif secret < 88:
+        print("GREAT!")
+    elif secret >= 88:
+        print("Bye.")
